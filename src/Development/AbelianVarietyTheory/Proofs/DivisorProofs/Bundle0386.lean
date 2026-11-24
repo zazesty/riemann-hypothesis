@@ -32,6 +32,7 @@ public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.RingCocone
 
 -- bundled from Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegrableFullRankFibre
 section
+attribute [-instance] Formalism.DoubleCosetMeasures.instMeasGL Formalism.DoubleCosetMeasures.instBorelGL
 open MeasureTheory Matrix Topology
 
 namespace GlobalTheory.RankFibre

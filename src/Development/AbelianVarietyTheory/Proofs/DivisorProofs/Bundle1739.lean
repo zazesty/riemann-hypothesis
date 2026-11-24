@@ -18,6 +18,7 @@ public import Development.AbelianVarietyTheory.Proofs.DivisorProofs.Bundle1215
 
 -- bundled from Development.AbelianVarietyTheory.Proofs.DivisorProofs.SmallFStdB
 section
+attribute [-instance] Formalism.DoubleCosetMeasures.instMeasGL Formalism.DoubleCosetMeasures.instBorelGL
 attribute [-instance] GlobalTheory.CompanionTheory.QL.instMeasGL GlobalTheory.CompanionTheory.QL.instBorelGL
 open scoped TensorProduct NNReal Matrix
 open NumberField IsDedekindDomain MeasureTheory Filter Topology Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes ValuativeRel

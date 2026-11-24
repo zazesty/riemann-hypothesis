@@ -14,6 +14,7 @@ public import Formalism.LocalRingCardinality.Bundle0007
 
 @[expose] public section
 
+attribute [-instance] Formalism.DoubleCosetMeasures.instMeasGL Formalism.DoubleCosetMeasures.instBorelGL
 open MeasureTheory NumberField IsDedekindDomain Matrix Topology Filter Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes GlobalTheory.AdelicUnimod
 open Formalism.UG (UJ cT intAd)
 open scoped TensorProduct NNReal ENNReal Pointwise RestrictedProduct
